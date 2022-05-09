@@ -1,0 +1,347 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+   
+
+}
+.carousel-container{
+width: 80%;
+height: auto;
+margin: auto;
+overflow: hidden;
+position: relative;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+/*discount start */
+
+.discount img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/*discount ends */
+
+
+
+/*summer-tees starts*/
+
+.summer-tees{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.summer-tee{
+    width: 100%;
+}
+.summer-tees>p{
+    font-size: 40px;
+   
+}
+.summer-tee>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+
+/*summer-tees ends*/
+
+
+/*shop-by-category starts */
+.shop-by-category{
+    display: flex; 
+    width: 100%;
+    margin: auto;
+    gap: 15px;
+   margin-bottom: 60px;
+   text-align: center;
+   
+}
+
+
+.shop-by-category>div>img{
+     width: 100%;
+    height: 85%; 
+}
+
+.shop-by-category>div>p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.outer-shop-by-category{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+.outer-shop-by-category>p{
+    font-size: 35px;
+}
+.outer-shop-by-category>div>hr
+{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+/*shop-by-category ends */
+
+
+
+
+/* sneakers starts*/
+
+.sneakers{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.sneakers>img{
+    width: 100%;
+}
+.sneakers>p{
+    font-size: 40px;
+   
+}
+.sneakers>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+
+
+/*sneakers ends*/
+
+/* trending-stores starts*/
+.trending-stores{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.trending-stores>img{
+    width: 100%;
+}
+.trending-stores>p{
+    font-size: 40px;
+   
+}
+.trending-stores>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+
+/* trending-stores ends*/
+
+/* youth-store starts*/
+
+.youth-store{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.youth-store>img{
+    width: 100%;
+}
+.youth-store>p{
+    font-size: 40px;
+   
+}
+.youth-store>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+
+/* youth-store ends*/
+
+
+.budget-zone{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 250px;
+    
+}
+
+
+
+
+/* eid-mubarak starts*/
+
+.eid-mubarak{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.eid-mubarak>img{
+    width: 100%;
+}
+.eid-mubarak>p{
+    font-size: 40px;
+   
+}
+.eid-mubarak>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+/* eid-mubarak ends*/
+
+/* summer-trend starts*/
+
+.summer-trends{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    gap: 15px;
+    cursor: pointer;
+    
+}
+.summer-trends>div>img{
+    width: 100%;
+}
+.outer-summer-trends>p{
+    font-size: 35px;
+}
+.outer-summer-trends{
+    width: 80%;
+    margin: auto;
+   
+}
+.summer-trends>hr{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+/* summer-trends ends*/
+
+/* view-all starts*/
+
+
+.view-all{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.view-all>img{
+    width: 100%;
+}
+
+.view-all>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+
+/* view-all ends*/
+
+/* gift starts*/
+
+.gift{
+    
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.gift>img{
+    width: 100%;
+}
+.gift>p{
+    font-size: 40px;
+   
+}
+.gift>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+/* gift ends*/
+
+
+/* connect-us starts*/
+.connect-us{
+    
+    margin: auto;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.connect-us>img{
+    width: 100%;
+}
+.connect-us>p{
+    font-size: 40px;
+   
+}
+.connect-us>img+hr{
+    width: 100%;
+    height: 0.5px;
+    border-color: rgb(73, 76, 79);
+    margin-top: 70px;
+}
+/* connect-us emds*/
+hr{
+    border-color: rgb(239, 226, 226);
+   
+}
